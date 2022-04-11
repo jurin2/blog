@@ -39,9 +39,9 @@ function Modal(props){
           <button onClick={props.onModalClose}>닫기</button>
         </div>
         <div className="modal-body">
-          <div>{props.listTit[0]}</div>
+          <div>{props.listTit}</div>
           <div>날짜</div>
-          <div>{props.listContent[0]}</div>
+          <div>{props.listContent}</div>
         </div>
       </div>
     </section>
